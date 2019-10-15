@@ -1,27 +1,12 @@
-<header id="cabecera_principal">
-	<img src="http://fakeimg.pl/300x100" alt="Logotipo" class="logo" />
+<script>
+	import HeaderMain from "./components/general/HeaderMain/HeaderMain.svelte";
+	
+</script>
 
-	<nav class="menu">
-	<ul>
-		<li>
-		<a href="#">
-			Menú 1
-		</a>
-		</li>
-		<li>
-		<a href="#">
-			Menú 2
-		</a>
-		</li>
-		<li>
-		<a href="#">
-			Menú 3
-		</a>
-		</li>
-	</ul>
-	</nav>
-</header>
 
+<HeaderMain/>
+
+<!-- 
 <section class="portada">
 	<h1> PORTADA </h1>
 	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatum nisi obcaecati suscipit id atque
@@ -72,4 +57,4 @@
 
 <section class="contenido">
 	Aquí va a ir el Contenido de ejemplo
-</section>
+</section> -->
